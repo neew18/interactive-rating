@@ -28,9 +28,17 @@ Users should be able to:
 
 ### Screenshot
 
+#### Mobile view
+
+![rating](https://user-images.githubusercontent.com/98087868/219948095-9fb08ba1-4123-4a96-b8c2-b19f728f9a68.PNG)
+
+#### Desktop view
+
+![rating-desktop](https://user-images.githubusercontent.com/98087868/219948225-8b4f7d03-ead2-4516-8951-20450ecd6ef1.PNG)
+
+
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
