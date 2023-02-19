@@ -39,7 +39,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- View the live version [here](https://interactive-rating-virid.vercel.app/).
 
 ## My process
 
