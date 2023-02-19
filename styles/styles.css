@@ -1,0 +1,185 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(217, 12%, 63%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+  --orange: hsl(25, 97%, 53%);
+  --active-state: rgba(67, 72, 78, 0.842);
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Overpass", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  background-color: var(--very-dark-blue);
+  width: 100%;
+  min-height: 100vh;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rating-container {
+  background-color: var(--dark-blue);
+  width: 30rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  display: block;
+}
+
+.star-icon {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--active-state);
+  border-radius: 2rem;
+  width: 3.3rem;
+}
+
+h1 {
+  margin: 1rem 0;
+  font-weight: 700;
+}
+
+.paragraph {
+  line-height: 2rem;
+  margin-bottom: 2.4rem;
+}
+
+.paragraph,
+.rating-num {
+  color: var(--light-grey);
+  font-size: 1.4rem;
+}
+
+.paragraph,
+.rating-num,
+button {
+  font-weight: 400;
+}
+
+.rating-num-box {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 0;
+}
+
+.rating-num {
+  padding: 1.3rem 1.8rem;
+  background-color: var(--active-state);
+  border-radius: 3rem;
+  text-decoration: none;
+}
+
+#rate-1 {
+  padding: 1.3rem 2rem;
+}
+
+.rating-num,
+button {
+  font-size: 1.3rem;
+  transition: all 200ms ease-in-out;
+}
+
+.rating-num:hover,
+button {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+button {
+  border: none;
+  padding: 1.3rem;
+  border-radius: 2rem;
+  width: 100%;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  letter-spacing: 0.3rem;
+}
+
+button:hover {
+  background-color: var(--white);
+  color: var(--orange);
+  cursor: pointer;
+}
+
+/*Thank You Card*/
+.thank-you-box {
+  background-color: var(--dark-blue);
+  width: 30rem;
+  padding: 2.2rem;
+  border-radius: 2rem;
+  text-align: center;
+  display: block;
+}
+
+.thank-you-img {
+  width: 15rem;
+  margin: 1rem auto;
+}
+
+.thank-you-h1 {
+  color: var(--orange);
+  background-color: var(--active-state);
+  border-radius: 2rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding: 1rem;
+  margin: 1rem 4.5rem;
+}
+
+.thank-you-msg {
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+.thank-you-text {
+  font-size: 1.4rem;
+  margin: 1rem 0;
+  line-height: 2rem;
+  color: var(--light-grey);
+}
+
+/* hiding the box*/
+
+.hidden {
+  display: none;
+}
+
+/*changing the background color after clicked*/
+.active {
+  background-color: var(--light-grey);
+  color: var(--white);
+}
+
+/*footer*/
+
+footer {
+  height: 5rem;
+  position: fixed;
+  bottom: 0;
+  left: 5%;
+  color: var(--white);
+  text-align: center;
+  font-size: 2rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--white);
+  transition: all 200ms ease-in-out;
+}
+
+footer a:hover {
+  color: var(--orange);
+}

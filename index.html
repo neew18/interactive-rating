@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Rate us</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/icon-star.svg"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Overpass"
+      rel="stylesheet"
+    />
+    <meta name="description" content="interactive-rating-card" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="rating-container">
+        <img
+          class="star-icon"
+          src="images/icon-star.svg"
+          alt="A golden star icon"
+        />
+        <h1>How did we do?</h1>
+        <p class="paragraph">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <div class="rating-num-box">
+          <a href="#" class="rating-num" id="rate-1">1</a>
+          <a href="#" class="rating-num">2</a>
+          <a href="#" class="rating-num">3</a>
+          <a href="#" class="rating-num">4</a>
+          <a href="#" class="rating-num">5</a>
+        </div>
+        <button id="submit-button" type="submit">Submit</button>
+      </div>
+      <div class="thank-you-box hidden">
+        <img
+          class="thank-you-img"
+          src="images/illustration-thank-you.svg"
+          alt="Thank you illustration"
+        />
+        <h1 class="thank-you-h1">
+          You selected <span id="thankyou-rating"></span> out of 5
+        </h1>
+        <h2 class="thank-you-msg">Thank you!</h2>
+        <p class="thank-you-text">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don't hesitate to get in touch!
+        </p>
+        <button id="submit-again-button" type="submit">Rate us again</button>
+      </div>
+    </main>
+    <footer>
+      <p>
+        <a href="#">Open-source</a>, Coded by
+        <a class="coder" href="https://neew18.github.io/neew-links-tree/"
+          >Nann Ei Ei Win</a
+        >
+      </p>
+    </footer>
+    <script src="scripts/index.js" async defer></script>
+  </body>
+</html>
